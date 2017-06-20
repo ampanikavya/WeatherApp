@@ -7,7 +7,7 @@ weatherApp.controller('homeController', ['$scope', '$location', 'cityService', f
     });
     
     $scope.submit = function() {
-        $location.path("/forecast");
+        $location.path("/forecast.htm");
     };
     
 }]);
